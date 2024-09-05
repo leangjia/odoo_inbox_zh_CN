@@ -1,0 +1,978 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_inbox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20240126\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-05 12:30+0000\n"
+"PO-Revision-Date: 2024-09-05 12:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "#{ done and 'Move to Inbox' or 'Mark as Done'}"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "#{ starred and 'Move to Inbox' or 'Mark as Todo'}"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "&amp;nbsp;"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"&amp;nbsp;\n"
+"                                                    <i class=\"fa fa-angle-down\"/>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "&amp;times;"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "&gt;"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "&lt;"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<b>SAVE</b>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "<option value=\"0\">Select Document</option>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"bcc_partners\" id=\"bcc_compose_partner\" class=\"form-control\" multiple=\"multiple\" placeholder=\"Bcc\">\n"
+"                                        </select>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"cc_partners\" id=\"cc_compose_partner\" class=\"form-control\" multiple=\"multiple\" placeholder=\"Cc\">\n"
+"                                        </select>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"compose_template\" class=\"form-control\" id=\"document_compose_mail_template\">\n"
+"                                    <option value=\"\">Select template</option>\n"
+"                                </select>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"document_model_record\" id=\"document_model_records\" class=\"form-control d-none\" placeholder=\"Select Record\">\n"
+"                                            <option value=\"\">Select Record</option>\n"
+"                                        </select>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"partners\" id=\"compose_partner\" class=\"form-control\" multiple=\"multiple\" placeholder=\"To\" required=\"required\" oninvalid=\"this.setCustomValidity('Please specify at least one recipient!')\" oninput=\"setCustomValidity('')\">\n"
+"                                        </select>\n"
+"                                        <span class=\"arrow\"/>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<small>on</small>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<span class=\"btn_compose_save_template btn btn-secondary btn-sm mt-1 ml-2 "
+"d-none\" id=\"btn_compose_save_template\"><i class=\"fa fa-save\"/> Save "
+"template</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Later Today</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Next Week</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Tomorrow</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "<span class=\"sr-only\">Toggle Split Dropdown</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span style=\"display:none\"/>\n"
+"                                    <span class=\"draft_to\">Draft</span>\n"
+"                                    <span>to</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span>\n"
+"                                    <i class=\"fa fa-share\"/>Forward\n"
+"                                </span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span>\n"
+"                                <i class=\"fa fa-reply\"/>Reply\n"
+"                            </span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid ""
+"<span>Compose</span>\n"
+"                    <i class=\"fa fa-pencil\"/>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "<span>to me</span>"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.tag_dropdown
+msgid "Apply"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Attach files"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_fetchmail_server__author_id
+msgid "Author"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Avatar"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_bcc_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__email_bcc_ids
+msgid "BCC"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_bcc
+msgid "Bcc"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_bcc
+msgid "Black Carbon copy message recipients"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_cc_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__email_cc_ids
+msgid "CC"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Cancel"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__child_partner_ids
+msgid "Child Partners"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Close"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__create_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__create_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__create_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__create_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Delete"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Discart draft"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__display_name
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__display_name
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Don't worry, the messages in"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__done
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Done"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__draft
+msgid "Draft"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__draft_message_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__draft_message_id
+msgid "Draft Message ID"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Edit Name"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_thread
+msgid "Email Thread"
+msgstr ""
+
+#. module: odoo_inbox
+#. odoo-python
+#: code:addons/odoo_inbox/models/mail_mail.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to concurrent access update of "
+"notification records. Please see with an administrator."
+msgstr ""
+
+#. module: odoo_inbox
+#. odoo-python
+#: code:addons/odoo_inbox/models/mail_mail.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to sending an email without computed "
+"recipients."
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Expand to full-screen"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.view_email_server_form_inherit
+msgid "Fetch Sent Mail"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_config_settings__sent_mail_days
+msgid "Fetch Sent Mail Days"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Filter:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__folder_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__folder_id
+msgid "Folder"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__name
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Folder Name"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Folder Name..."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Go to"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__horizontal
+msgid "Horizontal"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Horizontal split"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__id
+msgid "ID"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_error
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Inbox"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_default_pane_view_type
+msgid "Inbox Default Pane View Type"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.view_users_form_inbo
+msgid "Inbox Settings"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_theme_backgroud_image
+msgid "Inbox Theme Background"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_theme_backgroud_color
+msgid "Inbox Theme Background Color"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_inbox_mail_template
+msgid "Inbox mail template"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_fetchmail_server
+msgid "Incoming Mail Server"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template____last_update
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder____last_update
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__write_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__write_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__write_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__write_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Log Out"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.actions.act_url,name:odoo_inbox.action_website_odoo_inbox
+#: model:ir.ui.menu,name:odoo_inbox.menu_website_odoo_inbox
+msgid "Mailbox"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Mark as Done"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Menu"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_message
+msgid "Message"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_message_folder
+msgid "Message Folder"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__message_label
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__message_label
+msgid "Message Label"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__msg_unread
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__msg_unread
+msgid "Message Read"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_message_tag
+msgid "Message Tag"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Minimize"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Move"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Move to"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Move to ..."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__name
+msgid "Name"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "New Message"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__none
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "No Split"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "No conversations selected"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_mail
+msgid "Outgoing Mails"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__user_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__user_id
+msgid "Owner"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_message_folder__partner_id
+#: model:ir.model.fields,help:odoo_inbox.field_message_tag__partner_id
+msgid "Partner-related data of the user"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__partner_followers
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__partner_followers
+msgid "Partners"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_bcc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_cc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_message__email_bcc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_message__email_cc_ids
+msgid ""
+"Partners that have a notification pushing this message in their mailboxes"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Pick Date &amp; Time"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Read"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_tag_list
+msgid "Remove tag"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__partner_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__partner_id
+msgid "Responsible"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "SAVE"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__sent
+msgid "SENT"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Save"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Search"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Select"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Select Document"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Send"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Sent"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.actions.server,name:odoo_inbox.ir_cron_mail_gateway_sent_action_ir_actions_server
+#: model:ir.cron,cron_name:odoo_inbox.ir_cron_mail_gateway_sent_action
+msgid "Sent Mail: Fetchmail Service"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.actions.server,name:odoo_inbox.ir_cron_move_inbox_message_action_ir_actions_server
+#: model:ir.cron,cron_name:odoo_inbox.ir_cron_move_inbox_message_action
+msgid "Set to Inbox"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Settings"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Snooz Until"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Snooze"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Snooze Untill"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__snoozed
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Snoozed"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__snoozed_time
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__snoozed_time
+msgid "Snoozed Time"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__starred
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Starred"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Subject"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__trash
+msgid "TRASH"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__tag_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__tag_ids
+msgid "Tag"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__name
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Tag Name"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.tag_dropdown
+msgid "Tag Name..."
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Tags"
+msgstr ""
+
+#. module: odoo_inbox
+#. odoo-javascript
+#: code:addons/odoo_inbox/static/src/js/odoo_inbox.js:0
+#, python-format
+msgid "The Mail template is being rendered, please wait ..."
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Theme"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Trash"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Unread"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Unstarred"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_res_users
+msgid "User"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__vertical
+msgid "Vertical Split"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Vertical split"
+msgstr ""
+
+#. module: odoo_inbox
+#. odoo-javascript
+#: code:addons/odoo_inbox/static/src/js/odoo_inbox.js:0
+#, python-format
+msgid "We are processing, please wait ..."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "bcc:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "c_mail.date"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "cc:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "date:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "from:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "mail.get('parent_id').date"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "subject:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "to:"
+msgstr ""
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "will not be deleted."
+msgstr ""
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_res_partner
+msgid "供应商管理"
+msgstr ""

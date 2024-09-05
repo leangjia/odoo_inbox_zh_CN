@@ -1,0 +1,1023 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_inbox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20240126\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-05 12:30+0000\n"
+"PO-Revision-Date: 2024-09-05 21:21+0800\n"
+"Last-Translator: 老天@odoo123.com\n"
+"Language-Team: 开源之家odoo123.com\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: odoo_inbox
+#. module: odoo_inbox
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template msgid "#{
+#: done and 'Move to Inbox' or 'Mark as Done'}" msgstr
+#: 已完成和'移至收件箱'或 '标为已完成'}"
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail starred
+#: Todo'}" 星标和 '移至收件箱' 或 '标为待办'}"
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"&amp;nbsp;\n"
+"                                                    <i class=\"fa fa-angle-"
+"down\"/>"
+msgstr ""
+"&amp;nbsp;\n"
+"                                                    <i class=\"fa fa-angle-"
+"down\"/>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "&amp;times;"
+msgstr "&amp;时间;"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "&gt;"
+msgstr "&gt;"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "&lt;"
+msgstr "&lt;"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<b>SAVE</b>"
+msgstr "<b>保存</b>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "<option value=\"0\">Select Document</option>"
+msgstr "<option value=\"0\">选择文档</option>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"bcc_partners\" id=\"bcc_compose_partner\" class=\"form-"
+"control\" multiple=\"multiple\" placeholder=\"Bcc\">\n"
+"                                        </select>"
+msgstr ""
+"<select name=\"bcc_partners\" id=\"bcc_compose_partner\" class=\"form-"
+"control\" multiple=\"multiple\" placeholder=\"Bcc\">\n"
+"                                        </select>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"cc_partners\" id=\"cc_compose_partner\" class=\"form-"
+"control\" multiple=\"multiple\" placeholder=\"Cc\">\n"
+"                                        </select>"
+msgstr ""
+"<select name=\"cc_partners\" id=\"cc_compose_partner\" class=\"form-"
+"control\" multiple=\"multiple\" placeholder=\"Cc\">\n"
+"                                        </select>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"compose_template\" class=\"form-control\" "
+"id=\"document_compose_mail_template\">\n"
+"                                    <option value=\"\">Select template</"
+"option>\n"
+"                                </select>"
+msgstr ""
+"<select name=\"compose_template\" class=\"form-control\" "
+"id=\"document_compose_mail_template\">\n"
+"                                    <option value=\"\">选择模板</option>\n"
+"                                </select>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"document_model_record\" id=\"document_model_records\" "
+"class=\"form-control d-none\" placeholder=\"Select Record\">\n"
+"                                            <option value=\"\">Select "
+"Record</option>\n"
+"                                        </select>"
+msgstr ""
+"<select name=\"document_model_record\" id=\"document_model_records\" "
+"class=\"form-control d-none\" placeholder=\"Select Record\">\n"
+"                                            <option value=\"\">选择记录</"
+"option>\n"
+"                                        </select>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<select name=\"partners\" id=\"compose_partner\" class=\"form-control\" "
+"multiple=\"multiple\" placeholder=\"To\" required=\"required\" "
+"oninvalid=\"this.setCustomValidity('Please specify at least one "
+"recipient!')\" oninput=\"setCustomValidity('')\">\n"
+"                                        </select>\n"
+"                                        <span class=\"arrow\"/>"
+msgstr ""
+"<select name=\"partners\" id=\"compose_partner\" class=\"form-control\" "
+"multiple=\"multiple\" placeholder=\"To\" required=\"required\" "
+"oninvalid=\"this.setCustomValidity('请至少指定一个收件人!')\" "
+"oninput=\"setCustomValidity('')\">\n"
+"                                        </select>\n"
+"                                        <span class=\"arrow\"/>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<small>on</small>"
+msgstr "<small>在</small>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid ""
+"<span class=\"btn_compose_save_template btn btn-secondary btn-sm mt-1 ml-2 d-"
+"none\" id=\"btn_compose_save_template\"><i class=\"fa fa-save\"/> Save "
+"template</span>"
+msgstr ""
+"<span class=\"btn_compose_save_template btn btn-secondary btn-sm mt-1 ml-2 d-"
+"none\" id=\"btn_compose_save_template\"><i class=\"fa fa-save\"/> 保存模板</"
+"span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Later Today</span>"
+msgstr "<span class=\"pull-left\">今天晚些时候</span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Next Week</span>"
+msgstr "<span class=\"pull-left\">下周</span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "<span class=\"pull-left\">Tomorrow</span>"
+msgstr "<span class=\"pull-left\">明天</span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "<span class=\"sr-only\">Toggle Split Dropdown</span>"
+msgstr "<span class=\"sr-only\">切换拆分下拉菜单</span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span style=\"display:none\"/>\n"
+"                                    <span class=\"draft_to\">Draft</span>\n"
+"                                    <span>to</span>"
+msgstr ""
+"<span style=\"display:none\"/>\n"
+"                                    <span class=\"draft_to\">草稿</span>\n"
+"                                    <span>收件人</span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span>\n"
+"                                    <i class=\"fa fa-share\"/>Forward\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <i class=\"fa fa-share\"/>转发\n"
+"                                </span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid ""
+"<span>\n"
+"                                <i class=\"fa fa-reply\"/>Reply\n"
+"                            </span>"
+msgstr ""
+"<span>\n"
+"                                <i class=\"fa fa-reply\"/>回复\n"
+"                            </span>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid ""
+"<span>Compose</span>\n"
+"                    <i class=\"fa fa-pencil\"/>"
+msgstr ""
+"<span>写信</span>\n"
+"                    <i class=\"fa fa-pencil\"/>"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "<span>to me</span>"
+msgstr "<span>给自己</span>"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_needaction
+msgid "Action Needed"
+msgstr "必须操作"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_ids
+msgid "Activities"
+msgstr "有效"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常标志"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_state
+msgid "Activity State"
+msgstr "激活状态"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "激活类型图标"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.tag_dropdown
+msgid "Apply"
+msgstr "应用"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Attach files"
+msgstr "附件"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_fetchmail_server__author_id
+msgid "Author"
+msgstr "作者"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Avatar"
+msgstr "头像"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_bcc_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__email_bcc_ids
+msgid "BCC"
+msgstr "密送"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_bcc
+msgid "Bcc"
+msgstr "密送"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_bcc
+msgid "Black Carbon copy message recipients"
+msgstr "暗抄送复制信息收件人（就是密送）"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__email_cc_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__email_cc_ids
+msgid "CC"
+msgstr "抄送"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Cancel"
+msgstr "取消"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__child_partner_ids
+msgid "Child Partners"
+msgstr "子级合作伙伴"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Close"
+msgstr "关闭"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__create_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__create_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__create_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__create_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Delete"
+msgstr "删除（小心，删掉就找不回来啦）"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Discart draft"
+msgstr "取消草稿"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__display_name
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__display_name
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Don't worry, the messages in"
+msgstr "别担心，消息在"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__done
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Done"
+msgstr "完成"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__draft_message_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__draft_message_id
+msgid "Draft Message ID"
+msgstr "草稿信息 ID"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Edit Name"
+msgstr "编辑名称"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_thread
+msgid "Email Thread"
+msgstr "Email 线程"
+
+#. module: odoo_inbox
+#. odoo-python
+#: code:addons/odoo_inbox/models/mail_mail.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to concurrent access update of "
+"notification records. Please see with an administrator."
+msgstr "无例外出错。可能是由于并发访问更新了通知记录。请咨询管理员。"
+
+#. module: odoo_inbox
+#. odoo-python
+#: code:addons/odoo_inbox/models/mail_mail.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to sending an email without computed "
+"recipients."
+msgstr "无例外出错。可能是由于发送电子邮件时未计算收件人。"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Expand to full-screen"
+msgstr "展开全屏"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.view_email_server_form_inherit
+msgid "Fetch Sent Mail"
+msgstr "获取发送邮件"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_config_settings__sent_mail_days
+msgid "Fetch Sent Mail Days"
+msgstr "获取已发送邮件天数"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Filter:"
+msgstr "筛选："
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__folder_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__folder_id
+msgid "Folder"
+msgstr "文件夹"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__name
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Folder Name"
+msgstr "文件夹名称"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Folder Name..."
+msgstr "文件夹名称..."
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体awesome图标例如 fa-tasks"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Go to"
+msgstr "转到"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__has_message
+msgid "Has Message"
+msgstr "消息"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__horizontal
+msgid "Horizontal"
+msgstr "水平线"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Horizontal split"
+msgstr "水平分割"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "激活类型图标。"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新消息。"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_error
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件存在传递错误。"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Inbox"
+msgstr "收件"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_default_pane_view_type
+msgid "Inbox Default Pane View Type"
+msgstr "收件箱默认窗格视图类型"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.view_users_form_inbo
+msgid "Inbox Settings"
+msgstr "收件箱设置"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_theme_backgroud_image
+msgid "Inbox Theme Background"
+msgstr "收件箱主题背景"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_res_users__inbox_theme_backgroud_color
+msgid "Inbox Theme Background Color"
+msgstr "收件箱主题背景颜色"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_inbox_mail_template
+msgid "Inbox mail template"
+msgstr "收件箱邮件模板"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_fetchmail_server
+msgid "Incoming Mail Server"
+msgstr "收件服务器"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_is_follower
+msgid "Is Follower"
+msgstr "关注者"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template____last_update
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder____last_update
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__write_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__write_uid
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__write_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__write_date
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Log Out"
+msgstr "登出"
+
+#. module: odoo_inbox
+#: model:ir.actions.act_url,name:odoo_inbox.action_website_odoo_inbox
+#: model:ir.ui.menu,name:odoo_inbox.menu_website_odoo_inbox
+msgid "Mailbox"
+msgstr "收件箱"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Mark as Done"
+msgstr "标记为完成"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Menu"
+msgstr "菜单"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_message
+msgid "Message"
+msgstr "消息"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传递错误"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_message_folder
+msgid "Message Folder"
+msgstr "消息目录"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__message_label
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__message_label
+msgid "Message Label"
+msgstr "消息标签"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__msg_unread
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__msg_unread
+msgid "Message Read"
+msgstr "读取消息"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_message_tag
+msgid "Message Tag"
+msgstr "消息标记"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_ids
+msgid "Messages"
+msgstr "信息"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Minimize"
+msgstr "最小化"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Move"
+msgstr "转移"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Move to"
+msgstr "移到"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Move to ..."
+msgstr "移到 ..."
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__name
+msgid "Name"
+msgstr "名称"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "New Message"
+msgstr "新的消息"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__none
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "No Split"
+msgstr "不分割"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "No conversations selected"
+msgstr "未选择对话"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr "动作数"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误编号"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "待决消息数量"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "消息传递错误"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_mail_mail
+msgid "Outgoing Mails"
+msgstr "外发邮件"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__user_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__user_id
+msgid "Owner"
+msgstr "所有者"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_message_folder__partner_id
+#: model:ir.model.fields,help:odoo_inbox.field_message_tag__partner_id
+msgid "Partner-related data of the user"
+msgstr "用户的合作伙伴相关数据"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__partner_followers
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__partner_followers
+msgid "Partners"
+msgstr "合作伙伴"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_bcc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_mail__email_cc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_message__email_bcc_ids
+#: model:ir.model.fields,help:odoo_inbox.field_mail_message__email_cc_ids
+msgid ""
+"Partners that have a notification pushing this message in their mailboxes"
+msgstr "推送通知消息到他们邮箱的往来单位"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Pick Date &amp; Time"
+msgstr "选择日期 &amp; 时间"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Read"
+msgstr "读取"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_tag_list
+msgid "Remove tag"
+msgstr "移除标记"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_folder__partner_id
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__partner_id
+msgid "Responsible"
+msgstr "回复"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__activity_user_id
+msgid "Responsible User"
+msgstr "用户"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "SAVE"
+msgstr "保存"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__sent
+msgid "SENT"
+msgstr "发送"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "消息传递错误"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Save"
+msgstr "保存"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Search"
+msgstr "搜索"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Select"
+msgstr "选择"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Select Document"
+msgstr "选择文档"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "Send"
+msgstr "发送"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Sent"
+msgstr "发送"
+
+#. module: odoo_inbox
+#: model:ir.actions.server,name:odoo_inbox.ir_cron_mail_gateway_sent_action_ir_actions_server
+#: model:ir.cron,cron_name:odoo_inbox.ir_cron_mail_gateway_sent_action
+msgid "Sent Mail: Fetchmail Service"
+msgstr "发送邮件: Fetchmail 服务"
+
+#. module: odoo_inbox
+#: model:ir.actions.server,name:odoo_inbox.ir_cron_move_inbox_message_action_ir_actions_server
+#: model:ir.cron,cron_name:odoo_inbox.ir_cron_move_inbox_message_action
+msgid "Set to Inbox"
+msgstr "设置为收件箱"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Settings"
+msgstr "设置"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Snooz Until"
+msgstr "延后处理"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Snooze"
+msgstr "延后"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.message_detail_template
+msgid "Snooze Untill"
+msgstr "延后处理"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__snoozed
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Snoozed"
+msgstr "延后"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__snoozed_time
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__snoozed_time
+msgid "Snoozed Time"
+msgstr "延后时间"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__starred
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Starred"
+msgstr "星标"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：到期日期已过\n"
+"今天：活动日期为今天\n"
+"计划：未来活动。"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Subject"
+msgstr "子标题"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__mail_message__message_label__trash
+msgid "TRASH"
+msgstr "丢弃"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_mail__tag_ids
+#: model:ir.model.fields,field_description:odoo_inbox.field_mail_message__tag_ids
+msgid "Tag"
+msgstr "标签"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_message_tag__name
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Tag Name"
+msgstr "标签名称"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.tag_dropdown
+msgid "Tag Name..."
+msgstr "标记名称..."
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Tags"
+msgstr "标签"
+
+#. module: odoo_inbox
+#. odoo-javascript
+#: code:addons/odoo_inbox/static/src/js/odoo_inbox.js:0
+#, python-format
+msgid "The Mail template is being rendered, please wait ..."
+msgstr "正在渲染邮件模板，请稍候..."
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Theme"
+msgstr "主题"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "Trash"
+msgstr "丢弃"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录中异常活动的类型。"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Unread"
+msgstr "未读"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Unstarred"
+msgstr "未加星标"
+
+#. module: odoo_inbox
+#: model:ir.model,name:odoo_inbox.model_res_users
+msgid "User"
+msgstr "用户"
+
+#. module: odoo_inbox
+#: model:ir.model.fields.selection,name:odoo_inbox.selection__res_users__inbox_default_pane_view_type__vertical
+msgid "Vertical Split"
+msgstr "垂直拆分"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox
+msgid "Vertical split"
+msgstr "垂直拆分"
+
+#. module: odoo_inbox
+#. odoo-javascript
+#: code:addons/odoo_inbox/static/src/js/odoo_inbox.js:0
+#, python-format
+msgid "We are processing, please wait ..."
+msgstr "我们正在处理，请稍候 ..."
+
+#. module: odoo_inbox
+#: model:ir.model.fields,field_description:odoo_inbox.field_inbox_mail_template__website_message_ids
+msgid "Website Messages"
+msgstr "网页信息"
+
+#. module: odoo_inbox
+#: model:ir.model.fields,help:odoo_inbox.field_inbox_mail_template__website_message_ids
+msgid "Website communication history"
+msgstr "调试通信"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "bcc:"
+msgstr "密送："
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "c_mail.date"
+msgstr "c_mail.date"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "cc:"
+msgstr "抄送："
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "date:"
+msgstr "日期:"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "from:"
+msgstr "来自："
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_message_detail
+msgid "mail.get('parent_id').date"
+msgstr "mail.get('parent_id').date"
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "subject:"
+msgstr "主题："
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.address_dropdown
+msgid "to:"
+msgstr "收件人："
+
+#. module: odoo_inbox
+#: model_terms:ir.ui.view,arch_db:odoo_inbox.inbox_sidebar
+msgid "will not be deleted."
+msgstr "将不会被删除。"
