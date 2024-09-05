@@ -1,0 +1,2 @@
+odoo_inbox收件箱模块的简体中文汉化PO
+From老天@开源之家odoo123.com
